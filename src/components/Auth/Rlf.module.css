@@ -1,0 +1,72 @@
+.heading{
+    color: rgb(3, 3, 228);
+    text-align: center;
+    font-size: 27px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.head{
+    color: #ff4800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.Link{
+    font-size: 13px;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    margin-bottom: 5px;
+}
+.Linka{
+    font-size: 13px;
+    color: rgb(76, 129, 245);
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+.label{
+    color:rgb(100, 100, 102);
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.form a{
+    text-decoration: none;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+.error{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(184, 15, 15);
+    margin-bottom: 20px;
+    background-color: rgb(250, 237, 237);
+    border: 1.5px solid rgb(243, 155, 155) ;
+    padding: 10px 0; 
+    border-radius: 5px;
+}
+.errormessage{
+    padding-left: 8px;
+    font-size: 12px;
+    color: rgb(184, 15, 15);
+}
+.verifiedmessage {
+    padding-left: 8px;
+    font-size: 12px;
+    color: rgb(4, 126, 20);
+}
+@media screen and (max-width:500px) {
+    .heading{
+        font-size: 20px;
+    }   
+    .Link,.error, .errormessage ,.verifiedmessage{
+        font-size: 10px;
+    }
+    .label,.fpmessage{
+        font-size: 12px;
+    }
+}
